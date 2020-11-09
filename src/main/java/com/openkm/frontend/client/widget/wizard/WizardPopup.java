@@ -441,11 +441,10 @@ public class WizardPopup extends DialogBox implements ValidatorToFire {
 		switch (status) {
 			case STATUS_PROPERTY_GROUPS:
 				if (propertyGroupWidget != null) {
-					if (propertyGroupWidget.getValidationProcessor().validate()) {
-						propertyGroupWidget.setProperties();
-					} else {
-						actualButton.setEnabled(true);
-					}
+				    if (propertyGroupWidget != null) {
+	                    propertyGroupWidget.getValidationProcessor().validate(); // Allow plugins
+	                }
+	                break;
 				}
 				break;
 
