@@ -59,7 +59,7 @@
     <spring.security.version>3.2.10.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
-    <cxf.version>3.2.5</cxf.version>
+    <cxf.version>3.4.1</cxf.version>
 
     <!-- Apache POI -->
     <poi.version>3.12</poi.version>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
