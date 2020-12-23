@@ -321,7 +321,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-ehcache</artifactId>
-      <version>3.6.10.Final</version>
+      <version>5.4.24.Final</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
