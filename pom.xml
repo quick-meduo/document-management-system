@@ -55,8 +55,8 @@
     <gwt.version>2.8.2</gwt.version>
 
     <!-- Using this Spring version -->
-    <spring.version>3.2.18.RELEASE</spring.version>
-    <spring.security.version>3.2.10.RELEASE</spring.security.version>
+    <spring.version>5.2.15.RELEASE</spring.version>
+    <spring.security.version>4.0.1.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
     <cxf.version>3.2.5</cxf.version>
@@ -623,7 +623,7 @@
     <dependency>
       <groupId>org.springframework.ws</groupId>
       <artifactId>spring-ws-core</artifactId>
-      <version>2.1.4.RELEASE</version>
+      <version>3.0.4.RELEASE</version>
       <exclusions>
         <exclusion>
           <groupId>org.springframework</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
