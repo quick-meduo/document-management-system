@@ -59,7 +59,7 @@
     <spring.security.version>3.2.10.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
-    <cxf.version>3.2.5</cxf.version>
+    <cxf.version>3.4.4</cxf.version>
 
     <!-- Apache POI -->
     <poi.version>3.12</poi.version>
@@ -326,7 +326,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-search</artifactId>
-      <version>3.4.2.Final</version>
+      <version>4.0.0.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -504,7 +504,7 @@
     <dependency>
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client</artifactId>
-      <version>1.20.0</version>
+      <version>1.28.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.guava</groupId>
@@ -623,7 +623,7 @@
     <dependency>
       <groupId>org.springframework.ws</groupId>
       <artifactId>spring-ws-core</artifactId>
-      <version>2.1.4.RELEASE</version>
+      <version>3.0.4.RELEASE</version>
       <exclusions>
         <exclusion>
           <groupId>org.springframework</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
