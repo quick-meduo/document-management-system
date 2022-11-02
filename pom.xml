@@ -623,7 +623,7 @@
     <dependency>
       <groupId>org.springframework.ws</groupId>
       <artifactId>spring-ws-core</artifactId>
-      <version>2.1.4.RELEASE</version>
+      <version>3.1.4</version>
       <exclusions>
         <exclusion>
           <groupId>org.springframework</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
