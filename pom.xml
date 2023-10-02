@@ -56,7 +56,7 @@
 
     <!-- Using this Spring version -->
     <spring.version>3.2.18.RELEASE</spring.version>
-    <spring.security.version>3.2.10.RELEASE</spring.security.version>
+    <spring.security.version>4.1.0.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
     <cxf.version>3.2.5</cxf.version>
@@ -248,7 +248,7 @@
     <dependency>
       <groupId>net.sf.jasperreports</groupId>
       <artifactId>jasperreports</artifactId>
-      <version>6.4.3</version>
+      <version>6.20.1</version>
       <exclusions>
         <!-- Avoid java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.Compiler -->
         <!-- See http://groups.google.com/group/google-web-toolkit/browse_thread/thread/49e20fb5185b34ce/75436f95e29dce85?hl=en -->
@@ -310,7 +310,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>3.6.10.Final</version>
+      <version>5.1.17.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -326,7 +326,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-search</artifactId>
-      <version>3.4.2.Final</version>
+      <version>5.10.12.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
