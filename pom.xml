@@ -248,7 +248,7 @@
     <dependency>
       <groupId>net.sf.jasperreports</groupId>
       <artifactId>jasperreports</artifactId>
-      <version>6.4.3</version>
+      <version>6.21.5</version>
       <exclusions>
         <!-- Avoid java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.Compiler -->
         <!-- See http://groups.google.com/group/google-web-toolkit/browse_thread/thread/49e20fb5185b34ce/75436f95e29dce85?hl=en -->
@@ -504,7 +504,7 @@
     <dependency>
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client</artifactId>
-      <version>1.20.0</version>
+      <version>1.28.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.guava</groupId>
@@ -910,7 +910,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
